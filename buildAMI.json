@@ -1,10 +1,10 @@
 {
   "builders": [
       {
-        "ami_name"          :   "alpha-ami-{{timestamp}}",
+        "ami_name"          :   "alpha-ion-ami-{{timestamp}}",
         "instance_type"     :   "t2.micro",
         "region"            :   "us-east-2",
-        "source_ami"        :   "ami-007855ac798b5175e",
+        "source_ami"        :   "ami-0a695f0d95cefc163",
         "tags" : {
           "Name": "packer_ami"
         },
